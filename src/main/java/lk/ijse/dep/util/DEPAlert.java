@@ -5,7 +5,7 @@ import javafx.scene.control.ButtonType;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
-public class DEPAlert extends Alert {
+public class  DEPAlert extends Alert {
 
     public DEPAlert(AlertType alertType, String title, String header, String message, ButtonType... buttonTypes) {
         super(alertType, message, buttonTypes);

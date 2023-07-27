@@ -78,7 +78,7 @@ public class BoardController implements BoardUI {
                 if (!isGameOver) lblStatus.setText("Wait, AI is playing");
             });
             KeyFrame keyFrame = new KeyFrame(Duration.seconds(0.5), actionEvent -> {
-                if (!isGameOver) aiPlayer.movePiece(-1);
+                if (!isGameOver) aiPlayer.movePiece(-1); //Todo
             });
             new Timeline(delayFrame, keyFrame).playFromStart();
         } else {
