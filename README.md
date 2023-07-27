@@ -9,3 +9,5 @@ In this game I have implement the complete logic behind the "Connect 4 Game" inc
 * Reload the `pom.xml` file via **Maven Tool Window**
 * Create a run configuration for Maven via `Run > Edit Configuration`
 * Add `javafx:run` as the `Run` command
+
+[Screencast from 07-27-2023 11:13:12 PM.webm](https://github.com/DEP10-Project/connect-four-game/assets/122765001/4c44ac63-1aed-402f-81cf-b312a7ee6f87)
